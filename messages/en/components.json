@@ -1,0 +1,16 @@
+{
+  "LanguageSwitcher": {
+    "currentLanguage": "Current language: {Language}",
+    "en": "English",
+    "fr": "French",
+    "label": "Language",
+    "srOnly": "Change tongue"
+  },
+  "ThemeSwitcher": {
+    "dark": "Dark",
+    "label": "Theme",
+    "light": "Light",
+    "srOnly": "Change theme",
+    "system": "System"
+  }
+}
