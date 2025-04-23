@@ -10,10 +10,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const messages = loadI18nTranslations("messages", locale);
-
   return {
     locale,
-    messages,
+    messages: (await import(`../messages/${locale}.json`)).default,
   };
 });

@@ -1,0 +1,27 @@
+{
+  "Home": {
+    "deployNow": "Déployer maintenant",
+    "footer": {
+      "examples": "Exemples",
+      "goToNext": "Aller sur nextjs.org →",
+      "learn": "Apprendre"
+    },
+    "getStarted": "Commencez par éditer",
+    "readDocs": "Lisez notre documentation",
+    "saveChanges": "Enregistrez et visualisez vos modifications instantanément"
+  },
+  "LanguageSwitcher": {
+    "currentLanguage": "Langue actuelle : {language}",
+    "en": "Anglais",
+    "fr": "Français",
+    "label": "Langue",
+    "srOnly": "Changer de langue"
+  },
+  "ThemeSwitcher": {
+    "dark": "Sombre",
+    "label": "Thème",
+    "light": "Clair",
+    "srOnly": "Changer de thème",
+    "system": "Système"
+  }
+}

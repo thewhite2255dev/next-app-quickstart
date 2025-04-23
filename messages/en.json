@@ -1,4 +1,15 @@
 {
+  "Home": {
+    "deployNow": "Deploy now",
+    "footer": {
+      "examples": "Examples",
+      "goToNext": "Go to nextjs.org →",
+      "learn": "Learn"
+    },
+    "getStarted": "Get started by editing",
+    "readDocs": "Read our docs",
+    "saveChanges": "Save and see your changes instantly"
+  },
   "LanguageSwitcher": {
     "currentLanguage": "Current language: {Language}",
     "en": "English",
