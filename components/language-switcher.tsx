@@ -15,7 +15,7 @@ import {
 import { cn } from "@/lib/utils";
 
 interface LanguageSwitcherProps extends React.HTMLAttributes<HTMLElement> {
-  className: string
+  className?: string;
 }
 
 export function LanguageSwitcher({ className }: LanguageSwitcherProps) {
@@ -36,7 +36,7 @@ export function LanguageSwitcher({ className }: LanguageSwitcherProps) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant={null} size="sm" className={className}>
+        <Button variant="outline" size="sm" className={className}>
           <Globe className="h-[1.2rem] w-[1.2rem]" />
           <span className="sr-only">{t("srOnly")}</span>
         </Button>

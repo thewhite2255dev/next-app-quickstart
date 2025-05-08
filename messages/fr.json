@@ -23,5 +23,25 @@
     "light": "Clair",
     "srOnly": "Changer de thème",
     "system": "Système"
+  },
+  "Footer": {
+    "connect": {
+      "description": "Retrouvez-moi en ligne.",
+      "title": "Réseaux sociaux"
+    },
+    "copyright": "© {year} {title}. Tous droits réservés.",
+    "legal": {
+      "notices": "Mentions légales",
+      "privacy": "Politique de confidentialité"
+    },
+    "links": {
+      "github": {
+        "label": "GitHub",
+        "srOnly": "Profil GitHub"
+      }
+    }
+  },
+  "Header": {
+    "title": "Bienvenue"
   }
 }

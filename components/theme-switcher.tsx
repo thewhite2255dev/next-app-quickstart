@@ -15,7 +15,7 @@ import {
 import { cn } from "@/lib/utils";
 
 interface ThemeSwitcherProps extends React.HTMLAttributes<HTMLElement> {
-  className: string
+  className?: string;
 }
 
 export function ThemeSwitcher({ className }: ThemeSwitcherProps) {
@@ -25,7 +25,7 @@ export function ThemeSwitcher({ className }: ThemeSwitcherProps) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant={null} size="sm" className={className}>
+        <Button variant="outline" size="sm" className={className}>
           <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
           <Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
           <span className="sr-only">{t("srOnly")}</span>
